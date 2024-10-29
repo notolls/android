@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">ismanusis3</string>
+    <string-array name="departments">
+        <item>Mechanikos fakultetas</item>
+        <item>Informatikos fakultetas</item>
+        <item>Fizikos fakultetas</item>
+        <item>Ekonomikos fakultetas</item>
+        <item>Teisės fakultetas</item>
+        <item>Kineziterapijos fakultetas</item>
+    </string-array>
+    <string-array name="cities">
+        <item>Vilnius</item>
+        <item>Kaunas</item>
+        <item>Klaipėda</item>
+        <item>Šiauliai</item>
+        <item>Akmenė</item>
+        <item>Panevėžys</item>
+    </string-array>
+</resources>

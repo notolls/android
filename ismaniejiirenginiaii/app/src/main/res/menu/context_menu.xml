@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/context_count_chars"
+        android:title="Count Characters" />
+    <item
+        android:id="@+id/context_display_chars"
+        android:title="Display Characters One by One" />
+</menu>

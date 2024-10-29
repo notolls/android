@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <!-- 1. EditText for entering name -->
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Įveskite vardą ir pavardę" />
+
+        <!-- 2. AutoCompleteTextView for selecting a department -->
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pasirinkite padalinį" />
+
+        <!-- 3. RatingBar -->
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="4"
+            android:stepSize="1.0" />
+
+        <!-- 4. TimePicker -->
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="200dp"
+            android:layout_height="84dp"
+            android:timePickerMode="spinner" />
+
+        <!-- 5. DatePicker -->
+
+        <!-- 6. Spinner for selecting city -->
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="208dp"
+            android:layout_height="97dp"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner" />
+
+        <Spinner
+            android:id="@+id/spinnerCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- 7. Switch -->
+        <Switch
+            android:id="@+id/switchConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patvirtinti" />
+
+        <!-- 8. Button for submitting data -->
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patvirtinti duomenis" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
